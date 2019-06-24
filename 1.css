@@ -1,5 +1,27 @@
 *{margin: 0; padding: 0;}
 
+.khoitt1 {
+    height: 90%;
+    width: 100%;
+    background: #FF9683;
+    position: relative;
+}
+
+.khoitt1:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    background: #FF775F;
+}
+
+body,html {
+    height: 100%;
+    width: 100%;
+}
+
 nav.navbar.navbar-light.bg-faded.navbar-fixed-top {
     background: white;
 }
@@ -21,7 +43,6 @@ a.nav-link {
 nav.navbar.navbar-light.bg-faded {
 	margin: 0;
 	padding: 0;
-	margin: 6px;
 }
 
 @media (max-width: 576px){
